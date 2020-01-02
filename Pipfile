@@ -14,10 +14,14 @@ matplotlib = "*"
 sklearn = "*"
 shell = "*"
 seaborn = "*"
-tensorflow = "*"
+tensorflow = "==1.15.*"
 keras = "*"
 jupyter = "*"
 pipfile = "*"
+tensorflow-gpu = "*"
 
 [requires]
 python_version = "3.7"
+
+[pipenv]
+allow_prereleases = true
